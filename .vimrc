@@ -1,8 +1,8 @@
 let mapleader="," "leader is comma
 syntax enable "enable syntax processing
 
-set shiftwidth=2
-set softtabstop=2 "nombre d'espaces dans tab en édition
+set shiftwidth=4
+set softtabstop=4 "nombre d'espaces dans tab en édition
 set ai "auto indent
 set si "smart indent
 set wrap
@@ -76,12 +76,16 @@ nnoremap k gk
 "Highlight last inserted text
 nnoremap gV `[v`] 
 
-"Fold block of {
+"Fold block of {}
 map <leader>ff vi{zf
-
+map <leader>= ggvG=
 set incsearch "start looking for patter as I type
 
 set hlsearch "hl all search results
 map <leader>ss :setlocal spell!<cr>
 " leader m removes all ^M -
 noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
+let g:netrw_banner = 0
+let g:netrw_browse_split = 3
+let g:netrw_winsize = 25
+nnoremap <leader>xx :Vexplore<cr>
