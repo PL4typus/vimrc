@@ -1,8 +1,8 @@
 let mapleader="," "leader is comma
 syntax enable "enable syntax processing
 
-set shiftwidth=4
-set softtabstop=4 "nombre d'espaces dans tab en édition
+set shiftwidth=2
+set softtabstop=2 "nombre d'espaces dans tab en édition
 set ai "auto indent
 set si "smart indent
 set wrap
