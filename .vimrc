@@ -36,10 +36,12 @@ set t_vb=
 set tm=500
 
 set cursorline "surligne la ligne actuelle
-set wildmenu "visual autocomplétion pour le menu de commande
-
+set wildmenu "visual autocomplétion pour le menu de commandes
+" Syntax coloring lines that are too long just slows down the world
+set synmaxcol=128
 set lazyredraw " actualise l'écran seulement quand y a besoin
-
+set ttyfast " u got a fast terminal
+set ttyscroll=3
 "disable hl on the fly
 nnoremap <leader><cr> :noh<CR>
 "save shortcut
