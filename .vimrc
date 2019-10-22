@@ -1,8 +1,9 @@
 let mapleader="," "leader is comma
 syntax enable "enable syntax processing
 
-set shiftwidth=2
-set softtabstop=2 "nombre d'espaces dans tab en édition
+set expandtab " tabs are spaces
+set shiftwidth=4
+set softtabstop=4 "nombre d'espaces dans tab en édition
 set ai "auto indent
 set si "smart indent
 set wrap
@@ -15,7 +16,6 @@ vnoremap <silent> # :call VisualSelection('b')<cr>
 map <space> /
 map <c-space> ?
 
-set expandtab " tabs are spaces
 
 set number " set nu
 
