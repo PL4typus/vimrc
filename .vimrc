@@ -100,4 +100,6 @@ nnoremap <leader>{{ ciw{}<Esc>P
 nnoremap <leader>[[ ciw[]<Esc>P
 " leader {{ wraps word with parenthesis
 nnoremap <leader>(( ciw()<Esc>P
- 
+
+au BufNewFile,BufRead Containerfile,Dockerfile,*.Dockerfile,*.dockerfile     setf dockerfile
+
