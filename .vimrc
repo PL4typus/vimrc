@@ -91,3 +91,13 @@ let g:netrw_banner = 0
 let g:netrw_browse_split = 3
 let g:netrw_winsize = 25
 nnoremap <leader>xx :Vexplore<cr>
+
+" leader '' quotes the word the cursor is on
+nnoremap <leader>'' ciw''<Esc>P
+" leader {{ wraps word with curly brackets
+nnoremap <leader>{{ ciw{}<Esc>P
+" leader {{ wraps word with brackets
+nnoremap <leader>[[ ciw[]<Esc>P
+" leader {{ wraps word with parenthesis
+nnoremap <leader>(( ciw()<Esc>P
+ 
